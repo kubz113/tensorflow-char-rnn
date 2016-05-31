@@ -5,7 +5,7 @@ python train.py \
        --num_layers=1 \
        --model="rnn" \
        --batch_size=64 \
-       --output_dir=large \
+       --output_dir=output1 \
        --dropout = 0.1 \
 
 tensorboard --logdir=large/tensorboard_log/ --port=6007
